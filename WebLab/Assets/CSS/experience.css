@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+body{
+    background-color: white;
+    color:  rgba(83, 121, 7, 0.945);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 10%;
+    background: #0c2e46;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 3px solid;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 80px;
+    transition: .4s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+
+.experience-content {
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    padding: 50px 30px 50px 80px; 
+    max-width: 500px;
+} 
+
+.experience-content h1{
+        position: absolute;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 50px 50px 100px 80px;
+        text-decoration-line: underline;
+}
+
+.experience-content pre{
+        position: absolute;
+        font-size: 23px;
+        font-weight: 548;
+        margin: 1350px 580px 0px 30px;
+}  
